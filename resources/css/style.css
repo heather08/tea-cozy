@@ -91,17 +91,16 @@ a {
   padding-bottom: 10px;
 }
 
-.specials-top {
+.specials {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 1000px;
 }
 
-.specials-bottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.special {
+  margin: 5px;
 }
 
 .special img {
