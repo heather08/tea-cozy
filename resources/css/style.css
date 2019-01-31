@@ -81,11 +81,15 @@ a {
 
 .specials {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 1000px;
   flex-wrap: wrap;
   margin-left: 100px;
+}
+
+.special {
+  margin-right: 30px;
 }
 
 .special img {
@@ -95,4 +99,35 @@ a {
 
 .item {
   margin-top: 10px;
+}
+
+/* Locations */
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+
+.location-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin-top: 15px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: black;
 }
