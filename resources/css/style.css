@@ -120,6 +120,7 @@ a {
   align-items: center;
   height: 300px;
   width: 980px;
+
 }
 
 .location {
@@ -130,4 +131,23 @@ a {
   background-color: black;
   width: 300px;
   height: 300px;
+}
+
+/* Contact */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Footer */
+
+footer span {
+  text-align: left;
+  margin-left: 20px;
 }
