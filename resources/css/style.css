@@ -91,19 +91,23 @@ a {
   padding-bottom: 10px;
 }
 
-.specials {
+.specials-top {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1000px;
-  flex-wrap: wrap;
 }
 
+.specials-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .special img {
   width: 300px;
   height: 200px;
-  margin-top: 30px;
+  margin: 10px;
 }
 
 .item {
