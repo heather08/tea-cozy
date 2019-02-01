@@ -37,6 +37,10 @@ nav {
   margin-left: 0px;
 }
 
+nav span {
+  margin-right: 10px;
+}
+
 a {
   text-decoration: underline;
 }
